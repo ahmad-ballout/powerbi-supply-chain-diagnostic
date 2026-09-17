@@ -1,5 +1,5 @@
 # powerbi-supply-chain-diagnostic
-Ce tableau de bord exécutif Power BI diagnostique les causes d'un OTIF de 92 % (objectif 95 %). Il dépasse le simple suivi pour analyser l'impact des délais fournisseurs, des goulets d'étranglement en centre de distribution et du panier moyen (AOV) par catégorie sur la performance logistique globale.
+Ce tableau de bord exécutif Power BI diagnostique les causes d'un OTIF de 92 % (objectif 95 %). Il dépasse le simple suivi pour analyser l'impact des délais fournisseurs, des goulets d'étranglement en centre de distribution et du panier moyen (AOV) par catégorie sur la performance logistique globale. Le dépôt intègre le fichier source .pbix complet pour une exploration interactive sous Power BI Desktop, ainsi qu'une version PDF regroupant l'ensemble des pages du rapport pour un visionnage rapide sans installation.
 
 Le rapport met en lumière les relations directes entre la qualité/délais des fournisseurs, les goulets d'étranglement opérationnels dans les centres de distribution (DC) et les contraintes logistiques liées aux catégories à fort panier moyen.
 
@@ -12,6 +12,11 @@ Le rapport intègre une barre de navigation dynamique avec réinitialisation des
 * **Glossary :** guide de référence rapide expliquant les acronymes clés et la méthodologie de calcul des métriques.
 * **Analysis :** synthèse exécutive et conclusions diagnostiques regroupant les 3 constats majeurs et le plan d'action stratégique.
 * **Bouton réinitialiser (Reset) :** bouton d'action permettant de réinitialiser instantanément tous les filtres appliqués sur la page.
+
+## Environnement technique & jeu de données
+
+* **Outils utilisés :** Power BI Desktop, Power Query, DAX, Microsoft Excel.
+* **Jeu de données :** Source Excel d'environ 2 200 lignes. Le volume reflète un modèle de grandes distributions B2B / gros volumes caractérisé par des commandes institutionnelles de grande envergure (palettisées/conteneurs), plutôt qu'un flux B2C à forte fréquence.
 
 ## Principaux insights diagnostiques
 
